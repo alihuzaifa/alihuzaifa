@@ -3,18 +3,18 @@ import React from "react";
 import AnimatedCharacterBackground from "./AnimatedCharacterBackground";
 import About from "./components/About";
 import Experience from "./components/Experience";
-import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skillss from "./components/Skills";
 import ScroolToTop from "./components/ScroolToTop";
+import Contact from "./components/Contact";
 
 const theme = createTheme({
   typography: {
     fontFamily: "Courier Prime, monospace",
     allVariants: {
-      color: "#FFFFFF", // Set the default text color to white for all Typography components
+      color: "#fff", // Set the default text color to white for all Typography components
     },
   },
 });
@@ -49,9 +49,9 @@ function App() {
             <Skillss />
             <Experience />
             <Projects />
+            <Contact />
             <ScroolToTop />
           </Box>
-          <Footer />
         </Box>
       </Box>
     </ThemeProvider>

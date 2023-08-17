@@ -1,10 +1,8 @@
 import { Box, Stack, Typography } from "@mui/material";
 import React from "react";
 import { Grey } from "../utils/constants";
-import GradientBox from "./GradientBox";
 import MotionLayout from "./MotionLayout";
 import Robot from "./Robot";
-import cv from "../assets/Yomna_Salah_Software_Developer.pdf";
 const Home = () => {
   return (
     <MotionLayout>
