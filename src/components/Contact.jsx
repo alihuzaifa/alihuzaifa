@@ -20,7 +20,7 @@ const Contact = () => {
           </Typography>
           <Typography mt={2} fontSize={14} color={Grey}>
             "I am a Student of Computer Science.I want to become a successful
-            programmer and data scientist."
+            programmer."
           </Typography>
           <Typography mt={2} fontSize={14} color={Grey}>
             Open for opportunities: Yes

@@ -65,8 +65,7 @@ const AnimatedCharacterBackground = () => {
           position: "absolute",
           width: "100%",
           height: "100%",
-          zIndex: 1, // Set the z-index to 1 to place it between the characters and the background
-          backgroundImage:
+          zIndex: 1, backgroundImage:
             "linear-gradient(60deg, rgba(105, 105, 205, 0.3) 10%, rgba(72, 61, 139, 0) 70%, rgba(105, 105, 205, 0.4) 90%)",
           backgroundSize: "300% 300%", // Increase the background size to make the animation effect wider
           animation: "shine 2s linear infinite", // Keyframe animation for the shining light effect
