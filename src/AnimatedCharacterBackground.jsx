@@ -1,16 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Box, useMediaQuery } from "@mui/material"; // Import Box and useMediaQuery from Material-UI
-
 const getRandomCharacter = () => {
   const characters =
     "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
   return characters[Math.floor(Math.random() * characters.length)];
 };
-
 const AnimatedCharacterBackground = () => {
   const [characters, setCharacters] = useState([]);
   const isMobile = useMediaQuery("(max-width: 600px)"); // Set the breakpoint for mobile screens
-
   useEffect(() => {
     const createCharacter = () => {
       const newCharacter = {
@@ -21,13 +18,10 @@ const AnimatedCharacterBackground = () => {
       };
       setCharacters((prevCharacters) => [...prevCharacters, newCharacter]);
     };
-
     const totalCharacters = isMobile ? 50 : 200; // Reduce the number of characters for mobile
-
     for (let i = 0; i < totalCharacters; i++) {
       createCharacter();
     }
-
     const interval = setInterval(() => {
       setCharacters((prevCharacters) =>
         prevCharacters.map((char) => ({
@@ -36,12 +30,10 @@ const AnimatedCharacterBackground = () => {
         }))
       );
     }, 500);
-
     return () => {
       clearInterval(interval);
     };
   }, [isMobile]);
-
   return (
     <Box
       sx={{
@@ -97,5 +89,4 @@ const AnimatedCharacterBackground = () => {
     </Box>
   );
 };
-
 export default AnimatedCharacterBackground;
