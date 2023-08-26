@@ -7,7 +7,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import MailIcon from "@mui/icons-material/Mail";
 import GradientBox from "./GradientBox"
-import cv from "../assets/Yomna_Salah_Software_Developer.pdf";
+import cv from "../assets/alihuzaifa.pdf";
 const Home = () => {
   return (
     <MotionLayout>
@@ -66,7 +66,7 @@ const Home = () => {
           >
             <Box
               onClick={() => {
-                const fileName = "Yomna_Salah_Software_Developer.pdf";
+                const fileName = "Ali-Huzaifa.pdf";
                 const filePath = cv;
                 const link = document.createElement("a");
                 link.setAttribute("download", fileName);
@@ -86,5 +86,4 @@ const Home = () => {
     </MotionLayout>
   );
 };
-
 export default Home;
