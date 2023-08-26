@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./Navbar.css";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 function NavBar() {
@@ -24,7 +23,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                HOME
+                SKILLS
               </div>
             </li>
             <li className="nav-item">
@@ -35,24 +34,13 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                ABOUT
+                WORK EXPERIENCE
               </div>
             </li>
             <li className="nav-item">
               <div
                 exact
                 to="/blog"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                EXPERIENCE
-              </div>
-            </li>
-            <li className="nav-item">
-              <div
-                exact
-                to="/contact"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
