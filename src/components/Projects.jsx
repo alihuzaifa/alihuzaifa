@@ -3,9 +3,7 @@ import React from "react";
 import { Grey, Projectss, useResponsiveFont } from "../utils/constants";
 import GradientBox from "./GradientBox";
 import MotionLayout from "./MotionLayout";
-import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkIcon from "@mui/icons-material/Link";
-import GoogleIcon from "@mui/icons-material/Google";
 import AppleIcon from "@mui/icons-material/Apple";
 const Projects = () => {
   return (
