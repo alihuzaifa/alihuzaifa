@@ -75,26 +75,6 @@ const Projects = () => {
                         customStyle={{ width: { xs: "40%", md: "25%" }, py: 1 }}
                       >
                         <a
-                          href={p.isApp ? p.playStore : p.github}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <Stack direction="row" alignItems="center" gap={1}>
-                            {p.isApp ? (
-                              <GoogleIcon sx={{ fontSize: 20, color: "white" }} />
-                            ) : (
-                              <GitHubIcon sx={{ fontSize: 20, color: "white" }} />
-                            )}
-                            <Typography fontSize={12}>
-                              {p.isApp ? "Google Play" : "GitHub"}
-                            </Typography>
-                          </Stack>
-                        </a>
-                      </GradientBox>
-                      <GradientBox
-                        customStyle={{ width: { xs: "40%", md: "25%" }, py: 1 }}
-                      >
-                        <a
                           href={p.isApp ? p.appStore : p.demo}
                           target="_blank"
                           rel="noopener noreferrer"
