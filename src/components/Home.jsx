@@ -10,80 +10,80 @@ import GradientBox from "./GradientBox"
 import cv from "../assets/alihuzaifa.pdf";
 const Home = () => {
   return (
-    <MotionLayout>
-      <Stack direction={{ xs: "column", md: "row" }}>
-        <Box pt={{ xs: 5, md: 10 }} width={{ xs: "100%", md: "60%" }}>
-          <Typography variant="h3" fontWeight="bold">
-            Hi there, I'm <span style={{ color: "#d2b9f0" }}>ALI HUZAIFA </span>
-          </Typography>
-          <Typography fontSize={useResponsiveFont ? 16 : 14} color={Grey}>
-            A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.
-          </Typography>
-          <Box display="flex" gap={3} mt={2}>
-            <a
-              href="https://www.linkedin.com/in/huzaifa-ansari-959b65240/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <LinkedInIcon
-                sx={{
-                  color: "#0277b5",
-                  transform: "scale(1.5)",
-                  "&:hover": {
-                    transform: "scale(1.6)",
-                  },
-                }}
-              />
-            </a>
-            <a
-              href="https://github.com/alihuzaifa"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GitHubIcon
-                sx={{
-                  color: "#0277b5",
-                  transform: "scale(1.5)",
-                  "&:hover": {
-                    transform: "scale(1.6)",
-                  },
-                }}
-              />
-            </a>
-            <a href="mailto:ha4587323@gmail.com">
-              <MailIcon
-                sx={{
-                  transform: "scale(1.5)",
-                  "&:hover": {
-                    transform: "scale(1.6)",
-                  },
-                }}
-              />
-            </a>
-          </Box>
-          <GradientBox
-            customStyle={{ width: '200px', py: 2, mt: 4 }}
-          >
-            <Box
-              onClick={() => {
-                const fileName = "Ali-Huzaifa.pdf";
-                const filePath = cv;
-                const link = document.createElement("a");
-                link.setAttribute("download", fileName);
-                link.setAttribute("href", filePath);
-                link.click();
-              }}
-            >
-              {" "}
-              <Typography fontSize={14}>Download My Resume</Typography>
+      <MotionLayout>
+        <Stack direction={{ xs: "column", md: "row" }}>
+          <Box pt={{ xs: 5, md: 10 }} width={{ xs: "100%", md: "60%" }}>
+            <Typography variant="h3" fontWeight="bold">
+              Hi there, I'm <span style={{ color: "#d2b9f0" }}>ALI HUZAIFA </span>
+            </Typography>
+            <Typography fontSize={useResponsiveFont ? 16 : 14} color={Grey}>
+              A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.
+            </Typography>
+            <Box display="flex" gap={3} mt={2}>
+              <a
+                href="https://www.linkedin.com/in/huzaifa-ansari-959b65240/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <LinkedInIcon
+                  sx={{
+                    color: "#0277b5",
+                    transform: "scale(1.5)",
+                    "&:hover": {
+                      transform: "scale(1.6)",
+                    },
+                  }}
+                />
+              </a>
+              <a
+                href="https://github.com/alihuzaifa"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GitHubIcon
+                  sx={{
+                    color: "#0277b5",
+                    transform: "scale(1.5)",
+                    "&:hover": {
+                      transform: "scale(1.6)",
+                    },
+                  }}
+                />
+              </a>
+              <a href="mailto:ha4587323@gmail.com">
+                <MailIcon
+                  sx={{
+                    transform: "scale(1.5)",
+                    "&:hover": {
+                      transform: "scale(1.6)",
+                    },
+                  }}
+                />
+              </a>
             </Box>
-          </GradientBox>
-        </Box>
-        <Box height="60vh" width={{ xs: "100%", md: "40%" }}>
-          <Robot />
-        </Box>
-      </Stack>
-    </MotionLayout>
+            <GradientBox
+              customStyle={{ width: '200px', py: 2, mt: 4 }}
+            >
+              <Box
+                onClick={() => {
+                  const fileName = "Ali-Huzaifa.pdf";
+                  const filePath = cv;
+                  const link = document.createElement("a");
+                  link.setAttribute("download", fileName);
+                  link.setAttribute("href", filePath);
+                  link.click();
+                }}
+              >
+                {" "}
+                <Typography fontSize={14}>Download My Resume</Typography>
+              </Box>
+            </GradientBox>
+          </Box>
+          <Box height="60vh" width={{ xs: "100%", md: "40%" }}>
+            <Robot />
+          </Box>
+        </Stack>
+      </MotionLayout>
   );
 };
 export default Home;

@@ -34,25 +34,26 @@ function App() {
         >
           <AnimatedCharacterBackground />
         </Box>
-
-        <Box
-          sx={{
-            position: "relative",
-            zIndex: 1,
-            minHeight: "100vh", // Add a minimum height to the content container to push content below the viewport
-          }}
-        >
-          <Navbar />
-          <Box px={{ xs: 2, md: 15 }} py={4}>
-            <Home />
-            <About />
-            <Skillss />
-            <Experience />
-            <Projects />
-            <Contact />
-            <ScroolToTop />
+        <div id="top">
+          <Box
+            sx={{
+              position: "relative",
+              zIndex: 1,
+              minHeight: "100vh", // Add a minimum height to the content container to push content below the viewport
+            }}
+          >
+            <Navbar />
+            <Box px={{ xs: 2, md: 15 }} py={4}>
+              <Home />
+              <About />
+              <Skillss />
+              <Experience />
+              <Projects />
+              <Contact />
+              <ScroolToTop />
+            </Box>
           </Box>
-        </Box>
+        </div>
       </Box>
     </ThemeProvider>
   );
