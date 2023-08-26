@@ -1,11 +1,13 @@
 import { Box, Stack, Typography } from "@mui/material";
 import React from "react";
-import { Grey } from "../utils/constants";
+import { Grey, useResponsiveFont } from "../utils/constants";
 import MotionLayout from "./MotionLayout";
 import Robot from "./Robot";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import MailIcon from "@mui/icons-material/Mail";
+import GradientBox from "./GradientBox"
+import cv from "../assets/Yomna_Salah_Software_Developer.pdf";
 const Home = () => {
   return (
     <MotionLayout>
@@ -14,7 +16,7 @@ const Home = () => {
           <Typography variant="h3" fontWeight="bold">
             Hi there, I'm <span style={{ color: "#d2b9f0" }}>ALI HUZAIFA </span>
           </Typography>
-          <Typography fontSize={16} color={Grey}>
+          <Typography fontSize={useResponsiveFont ? 16 : 14} color={Grey}>
             A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.
           </Typography>
           <Box display="flex" gap={3} mt={2}>
@@ -59,6 +61,23 @@ const Home = () => {
               />
             </a>
           </Box>
+          <GradientBox
+            customStyle={{ width: { xs: "80%", md: "40%" }, py: 2, mt: 4 }}
+          >
+            <Box
+              onClick={() => {
+                const fileName = "Yomna_Salah_Software_Developer.pdf";
+                const filePath = cv;
+                const link = document.createElement("a");
+                link.setAttribute("download", fileName);
+                link.setAttribute("href", filePath);
+                link.click();
+              }}
+            >
+              {" "}
+              <Typography fontSize={14}>Download My Resume</Typography>
+            </Box>
+          </GradientBox>
         </Box>
         <Box height="60vh" width={{ xs: "100%", md: "40%" }}>
           <Robot />

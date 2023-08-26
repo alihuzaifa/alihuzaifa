@@ -12,6 +12,7 @@ import git from "../assets/git.png";
 import firebase from "../assets/firebase.png";
 import galaxymart from "../assets/projects/galaxymart.png";
 import takeaway from "../assets/projects/takeaway.png";
+import { useMediaQuery } from "@mui/material";
 export const MainColor = "#6969cd";
 export const Grey = "#d4d0d9";
 export const Skillss = [
@@ -71,12 +72,7 @@ export const WorkingExperience = [
     place: "Karachi, Pakistan",
     date: "Jan 2023 - Present",
     description: [
-      "🚀 I started an exciting journey as a Full Stack Facilitator, helping to shape the future of technology.",
-      "I'm guiding new developers through interesting projects and helping them get better in a team.",
-      "I know how to make the front part of websites(HTML, CSS, JavaScript) and I'm also trying out some React things.",
-      "I'm really good at using Node.js, Express.js, and MongoDB, and I'm making sure websites and apps look nice and work well using Figma.",
-      "I'm creating smooth apps that can work on different devices using React Native, always learning and getting better.",
-      "Each time I write a piece of code, I'm adding to a big and exciting change in technology. 🌟👨‍💻📱",
+      "👋 Hey there! I'm a talented full stack developer with a passion for crafting stunning apps using React, JavaScript, and React Native. 🚀 I'm not just about code – I create digital wonders! Whether it's on the web or mobile, I bring ideas to life. ✨ And guess what? I'm not just about creation; I'm a good at deploying apps to domains too. 🌐 Let's make your digital dreams a reality! 💡🎉",
     ],
   },
   {
@@ -163,9 +159,12 @@ export const Projectss = [
         name: "express js",
         color: "#a5d6a7",
       },
-      
+
     ],
     demo: "https://the-takeaway.web.app/",
     github: "https://github.com/alihuzaifa/food-web-mern/tree/master/web",
   },
 ];
+export const useResponsiveFont = () => {
+  return useMediaQuery('(min-width:600px)');
+};

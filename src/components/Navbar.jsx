@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import AnchorLink from "react-anchor-link-smooth-scroll";
 function NavBar() {
   const [click, setClick] = useState(false);
 
@@ -16,48 +17,49 @@ function NavBar() {
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <div
-                exact
-                to="/"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                SKILLS
-              </div>
+
+              <AnchorLink href="#skills">
+                <div
+                  activeClassName="active"
+                  className="nav-links"
+                  onClick={handleClick}
+                >
+                  SKILLS
+                </div>
+              </AnchorLink>
             </li>
             <li className="nav-item">
-              <div
-                exact
-                to="/about"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                WORK EXPERIENCE
-              </div>
+              <AnchorLink href="#experience">
+                <div
+                  activeClassName="active"
+                  className="nav-links"
+                  onClick={handleClick}
+                >
+                  WORK EXPERIENCE
+                </div>
+              </AnchorLink>
             </li>
             <li className="nav-item">
-              <div
-                exact
-                to="/blog"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                PROJECTS
-              </div>
+              <AnchorLink href="#projects">
+                <div
+                  activeClassName="active"
+                  className="nav-links"
+                  onClick={handleClick}
+                >
+                  PROJECTS
+                </div>
+              </AnchorLink>
             </li>
             <li className="nav-item">
-              <div
-                exact
-                to="/contact"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                CONTACT US
-              </div>
+              <AnchorLink href="#contact">
+                <div
+                  activeClassName="active"
+                  className="nav-links"
+                  onClick={handleClick}
+                >
+                  CONTACT US
+                </div>
+              </AnchorLink>
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
