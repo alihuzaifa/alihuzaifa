@@ -56,7 +56,7 @@ const Footer = () => {
             }}
           />
         </a>
-        <a href="mailto:ha4587323@gmail.com">
+        <a href="mailto:alihuzaifa@alihuzaifa.com">
           <MailIcon
             sx={{
               "&:hover": {

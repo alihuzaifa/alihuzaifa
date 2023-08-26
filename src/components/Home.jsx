@@ -62,7 +62,7 @@ const Home = () => {
             </a>
           </Box>
           <GradientBox
-            customStyle={{ width: { xs: "80%", md: "40%" }, py: 2, mt: 4 }}
+            customStyle={{ width: '200px', py: 2, mt: 4 }}
           >
             <Box
               onClick={() => {
