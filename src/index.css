@@ -25,7 +25,19 @@ body {
     background-position: 0% 50%;
   }
 }
+::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 6px;
+}
 
+::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d2b9f0;
+  border-radius: 8px;
+}
 a {
   text-decoration: none;
 }
@@ -35,11 +47,10 @@ a:visited {
 }
 
 #topButton {
-  visibility: hidden;
   position: fixed;
-  bottom: 20px;
+  bottom: 25px;
   right: 30px;
-  z-index: 99;
+  z-index: 100;
   border: none;
   outline: none;
   color: white;
@@ -47,8 +58,18 @@ a:visited {
   padding: 15px;
   border-radius: 15px;
   font-size: 25px;
+  transform: translateY(0);
+  transition: transform 0.5s ease;
+  animation: bounceAnimation 1s infinite alternate;
 }
-
+@keyframes bounceAnimation {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-18px);
+  }
+}
 .navbar {
   background-color: #d2b9f0;
   height: 70px;
@@ -60,7 +81,6 @@ a:visited {
   top: 0;
   z-index: 20;
 }
-
 .nav-container {
   display: flex;
   justify-content: center;
@@ -70,7 +90,6 @@ a:visited {
   max-width: 1500px;
   padding: 0px 100px;
 }
-
 .nav-logo {
   color: white;
   align-items: center;
@@ -80,14 +99,12 @@ a:visited {
   font-size: 2rem;
   flex-grow: 1;
 }
-
 .nav-menu {
   display: flex;
   list-style: none;
   text-align: center;
   margin-right: 2rem;
 }
-
 .nav-links {
   color: #fff;
   text-decoration: none;
@@ -95,12 +112,10 @@ a:visited {
   height: 100%;
   border-bottom: 3px solid transparent;
 }
-
 .nav-item {
   line-height: 40px;
   margin-right: 1rem;
 }
-
 .nav-item:after {
   content: "";
   display: block;
@@ -109,11 +124,9 @@ a:visited {
   background: transparent;
   transition: width 0.7s ease, background-color 0.5s ease;
 }
-
 .nav-icon {
   display: none;
 }
-
 @media screen and (max-width: 1060px) {
   .nav-menu {
     display: flex;
@@ -125,7 +138,6 @@ a:visited {
     opacity: 1;
     transition: all 0.5s ease;
   }
-
   .nav-menu.active {
     background: #d2b9f0;
     left: -40px;
@@ -133,13 +145,11 @@ a:visited {
     transition: all 0.5s ease;
     z-index: 1;
   }
-
   .nav-links {
     padding: 1.5rem;
     width: 100%;
     display: table;
   }
-
   .nav-icon {
     display: block;
     position: absolute;
@@ -151,7 +161,6 @@ a:visited {
     color: white;
   }
 }
-
 @media screen and (max-width: 768px) {
   .nav-container {
     display: flex;

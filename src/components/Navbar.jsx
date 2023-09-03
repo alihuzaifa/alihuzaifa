@@ -10,8 +10,10 @@ function NavBar() {
     <>
       <nav className="navbar">
         <div className="nav-container">
-          <div exact to="/" className="nav-logo">
+          <div className="nav-logo">
+          <AnchorLink href="#top" style={{textDecorationColor:"white",color:'white'}}>
             ALI HUZAIFA
+          </AnchorLink>
             <i className="fas fa-code"></i>
           </div>
 
@@ -29,13 +31,24 @@ function NavBar() {
               </AnchorLink>
             </li>
             <li className="nav-item">
+              <AnchorLink href="#services">
+                <div
+                  activeClassName="active"
+                  className="nav-links"
+                  onClick={handleClick}
+                >
+                  SERVICES
+                </div>
+              </AnchorLink>
+            </li>
+            <li className="nav-item">
               <AnchorLink href="#experience">
                 <div
                   activeClassName="active"
                   className="nav-links"
                   onClick={handleClick}
                 >
-                  WORK EXPERIENCE
+                  EXPERIENCE
                 </div>
               </AnchorLink>
             </li>
@@ -50,6 +63,7 @@ function NavBar() {
                 </div>
               </AnchorLink>
             </li>
+           
             <li className="nav-item">
               <AnchorLink href="#contact">
                 <div

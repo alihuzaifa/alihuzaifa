@@ -22,7 +22,7 @@ const Experience = () => {
                   />
                   <Box
                     sx={{
-                      borderRight: "2px solid #ccc", // Add a right border to create the divider effect
+                      borderRight: "2px solid #ccc", 
                       height: { xs: "25rem", md: "14rem" },
                       width: "6px",
                       mt: 0.5,

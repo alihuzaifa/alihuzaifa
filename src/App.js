@@ -1,5 +1,5 @@
 import { Box, createTheme, ThemeProvider } from "@mui/material";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import AnimatedCharacterBackground from "./AnimatedCharacterBackground";
 import About from "./components/About";
 import Experience from "./components/Experience";
@@ -9,6 +9,7 @@ import Projects from "./components/Projects";
 import Skillss from "./components/Skills";
 import ScroolToTop from "./components/ScroolToTop";
 import Contact from "./components/Contact";
+import Services from "./components/Services";
 
 const theme = createTheme({
   typography: {
@@ -20,6 +21,20 @@ const theme = createTheme({
 });
 
 function App() {
+  const [scrolling, setScrolling] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScrolling(true);
+      } else {
+        setScrolling(false);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    }; 
+  }, []);
   return (
     <ThemeProvider theme={theme}>
       <Box>
@@ -47,10 +62,12 @@ function App() {
               <Home />
               <About />
               <Skillss />
+              <Services />
               <Experience />
               <Projects />
               <Contact />
-              <ScroolToTop />
+              {scrolling && <ScroolToTop />}
+              
             </Box>
           </Box>
         </div>

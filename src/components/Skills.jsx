@@ -24,6 +24,8 @@ const Skills = () => {
               <Stack
                 key={skill.name}
                 justifyContent="center"
+                alignItems={'center'}
+                display={'flex'}
                 gap={1}
                 sx={{
                   "&:hover": {
