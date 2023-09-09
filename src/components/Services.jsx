@@ -1,8 +1,7 @@
-import { Box, Grid, Stack, Typography } from '@mui/material'
+import { Box, Grid, Typography } from '@mui/material'
 import React from 'react'
 import { useResponsiveFont } from '../utils/constants'
 import MotionLayout from './MotionLayout'
-
 const ServiceBox = ({title,subtitle,text}) => {
   return  <Grid item xs={12} sm={6} md={4}>
   <Box p={2} sx={{ borderRadius: 2, backgroundColor: "rgba(0,0,0, 0.2)" }}>
@@ -33,5 +32,4 @@ const Services = () => {
   
   )
 }
-
 export default Services
