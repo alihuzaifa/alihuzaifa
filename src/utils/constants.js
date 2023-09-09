@@ -12,6 +12,7 @@ import git from "../assets/git.png";
 import firebase from "../assets/firebase.png";
 import galaxymart from "../assets/projects/galaxymart.png";
 import takeaway from "../assets/projects/takeaway.png";
+import ZainFitness from "../assets/projects/zainfitness.png";
 import { useMediaQuery } from "@mui/material";
 export const MainColor = "#6969cd";
 export const Grey = "#d4d0d9";
@@ -81,12 +82,12 @@ export const WorkingExperience = [
     place: "Entrollics Pakistan",
     date: "October 2022 to Jan 2023",
     description: [
-      "🎨 I'm exploring the digital world as a keen Frontend Developer, creating cool web experiences.",
+      "I'm exploring the digital world as a keen Frontend Developer, creating cool web experiences.",
       "I turn design ideas into perfect-looking websites using HTML, CSS, and JavaScript.",
       "I'm really good at making designs work on different devices and making sure they're easy to use.",
       "I'm working closely with designers and people who build the hidden parts of websites to make everything fit together and look great.",
       "I'm always learning about new tech stuff and staying up-to-date with cool things happening in frontend development.",
-      "Every time I write a line of code, I'm helping to make exciting new things in technology. 🌟👨‍💻📱",
+      "Every time I write a line of code, I'm helping to make exciting new things in technology.",
     ],
   },
   {
@@ -95,16 +96,14 @@ export const WorkingExperience = [
     place: "Saylani Mass IT Training, Karachi, Pakistan",
     date: "Jun 2022 - Oct 2022",
     description: [
-      "🌟 I had an exciting internship at Saylani Mass IT Training where I learned to be a Frontend Developer.",
+      "I had an exciting internship at Saylani Mass IT Training where I learned to be a Frontend Developer.",
       "I turned designs into cool websites using HTML, CSS, and JavaScript.",
       "I focused on making websites work well on all devices, making them look nice, and making them fast.",
       "I worked closely with other teams to make sure everything fits together and looks great.",
       "I also learned about new tech stuff to stay up-to-date in the tech world.",
-      "Every piece of code I wrote added to making new and exciting things. 🎉👨‍💻🖌️",
+      "Every piece of code I wrote added to making new and exciting things.",
     ],
   }
-
-
 ];
 export const Projectss = [
   {
@@ -163,6 +162,23 @@ export const Projectss = [
     ],
     demo: "https://the-takeaway.web.app/",
     github: "https://github.com/alihuzaifa/food-web-mern/tree/master/web",
+  },
+  {
+    img: ZainFitness,
+    title: "Zain Fitness",
+    subTitle:
+      "Zain Gym Fitness Center is your ultimate destination for fitness excellence. Our cutting-edge facility, certified trainers, and tailored programs empower you to achieve your health and fitness goals. From personalized training to dynamic group classes, we provide comprehensive support. Elevate your well-being with us, where holistic health and community are at the core of our mission. Begin your transformation journey at Zain Gym today!",
+    tech: [
+      {
+        name: "react-typescript",
+        color: "#a1e9ff",
+      },
+      {
+        name: "MUI 5",
+        color: "#2828f7",
+      },
+    ],
+    demo: "https://zain-fitness.web.app/",
   },
 ];
 export const useResponsiveFont = () => {
