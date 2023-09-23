@@ -13,6 +13,7 @@ import firebase from "../assets/firebase.png";
 import galaxymart from "../assets/projects/galaxymart.png";
 import takeaway from "../assets/projects/takeaway.png";
 import ZainFitness from "../assets/projects/zainfitness.png";
+import shopEasy from "../assets/projects/shopeasy.jpeg";
 import { useMediaQuery } from "@mui/material";
 export const MainColor = "#6969cd";
 export const Grey = "#d4d0d9";
@@ -103,7 +104,7 @@ export const WorkingExperience = [
       "I also learned about new tech stuff to stay up-to-date in the tech world.",
       "Every piece of code I wrote added to making new and exciting things.",
     ],
-  }
+  },
 ];
 export const Projectss = [
   {
@@ -158,7 +159,6 @@ export const Projectss = [
         name: "express js",
         color: "#a5d6a7",
       },
-
     ],
     demo: "https://the-takeaway.web.app/",
     github: "https://github.com/alihuzaifa/food-web-mern/tree/master/web",
@@ -180,7 +180,25 @@ export const Projectss = [
     ],
     demo: "https://zain-fitness.web.app/",
   },
+  {
+    img: shopEasy,
+    title: "Shop Easy",
+    subTitle: `Home Screen: This is where you start. It looks nice and is easy to use. It shows you cool products and deals. You can also find different categories here.
+
+    Search Screen: If you want to find something specific, use this screen. You can type in words to search, look through categories, and get suggestions to help you.
+    
+    Detailed Screen: When you find something you like, click on it. You'll see big pictures, a description, details, what others think, and ways to buy it.
+    
+    Cart Screen: When you're ready to buy, go here. It shows what you're buying, lets you change how many you want, use promo codes, and tells you how your stuff will get to you. It makes shopping easy.D`,
+    tech: [
+      {
+        name: "react-native-typescript",
+        color: "#a1e9ff",
+      },
+    ],
+    demo: "https://drive.google.com/file/d/1x8GoEWrQj3DkiZBir6tZY3OWTT_j1Omy/view?usp=drive_link",
+  },
 ];
 export const useResponsiveFont = () => {
-  return useMediaQuery('(min-width:600px)');
+  return useMediaQuery("(min-width:600px)");
 };
