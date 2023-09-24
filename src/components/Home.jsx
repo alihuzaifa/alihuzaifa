@@ -17,7 +17,7 @@ const Home = () => {
               Hi there, I'm <span style={{ color: "#d2b9f0" }}>ALI HUZAIFA </span>
             </Typography>
             <Typography fontSize={useResponsiveFont ? 16 : 14} color={Grey}>
-              A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.
+              A passionate Full Stack Software Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.
             </Typography>
             <Box display="flex" gap={3} mt={2}>
               <a

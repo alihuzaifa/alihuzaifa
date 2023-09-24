@@ -19,7 +19,7 @@ const Projects = () => {
             color={Grey}
             width={{ xs: "100%", md: "60%" }}
           >
-            🌟 Take a look at the exciting projects in my portfolio that highlight my love for creative problem-solving. From building websites to cool mobile apps, these projects showcase my tech skills. And don't miss out on the startups and companies I've collaborated with to bring their tech ideas to reality. Let's dive into this awesome journey together! 🚀👨‍💻
+            Take a look at the exciting projects in my portfolio that highlight my love for creative problem-solving. From building websites to cool mobile apps, these projects showcase my tech skills. And don't miss out on the startups and companies I've collaborated with to bring their tech ideas to reality. Let's dive into this awesome journey together! 🚀👨‍💻
           </Typography>
           <Stack gap={4}>
             {Projectss.map((p, index) => (
