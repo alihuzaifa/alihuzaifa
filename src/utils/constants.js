@@ -74,7 +74,7 @@ export const WorkingExperience = [
     place: "Karachi, Pakistan",
     date: "Jan 2023 - Present",
     description: [
-      "👋 Hey there! I'm a talented full stack developer with a passion for crafting stunning apps using React, JavaScript, and React Native. 🚀 I'm not just about code – I create digital wonders! Whether it's on the web or mobile, I bring ideas to life. ✨ And guess what? I'm not just about creation; I'm a good at deploying apps to domains too. 🌐 Let's make your digital dreams a reality! 💡🎉",
+      "Hey there! I'm a talented full stack developer with a passion for crafting stunning apps using React, JavaScript, and React Native. I'm not just about code – I create digital wonders! Whether it's on the web or mobile, I bring ideas to life. And guess what? I'm not just about creation; I'm a good at deploying apps to domains too. Let's make your digital dreams a reality!",
     ],
   },
   {
