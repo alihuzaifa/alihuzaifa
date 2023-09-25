@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Ali Huzaifa</h1>
 <h3 align="center">I'm a full-stack developer passionate about building innovative and user-friendly web and app applications with a focus on scalability.</h3>
 
-- 🌱 I’m currently learning **Next C Language**
+- 🌱 I’m currently learning **Next JS C Language**
 
 - 👨‍💻 All of my projects are available at [https://alihuzaifa.com/](https://alihuzaifa.com/)
 
@@ -11,8 +11,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://dev.to/ghousahmed" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="ghousahmed" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/ghousahmed" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ghousahmed91" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/huzaifa-ansari-959b65240/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ghousahmed91" height="30" width="40" /></a>
 <a href="https://fb.com/ghousahmed91" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="ghousahmed91" height="30" width="40" /></a>
 <a href="https://medium.com/@ghousahmed" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@ghousahmed" height="30" width="40" /></a>
 <a href="https://www.youtube.com/c/tech kolachi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="tech kolachi" height="30" width="40" /></a>
