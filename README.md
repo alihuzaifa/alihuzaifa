@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Ali Huzaifa</h1>
 <h3 align="center">I'm a full-stack developer passionate about building innovative and user-friendly web and app applications with a focus on scalability.</h3>
 
-- 🌱 I’m currently learning **Next JS C Language**
+- 🌱 I’m currently learning **Generative Ai**
 
 - 👨‍💻 All of my projects are available at [https://alihuzaifa.com/](https://alihuzaifa.com/)
 
