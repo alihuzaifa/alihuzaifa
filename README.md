@@ -1,11 +1,10 @@
 <h1 align="center">Hi 👋, I'm Ali Huzaifa</h1>
 <h3 align="center">
-I'm a full-stack developer with 3+ years of experience, passionate about building innovative, scalable, and user-friendly web and mobile applications.
+Integration Engineer & Full Stack Developer building API-based integrations at StackOne with 250+ integrations across HRIS, ATS, CRM, LMS & more. Specialized in MERN & MEAN stacks with expertise in Next.js, NestJS, Vue.js, Nuxt.js, and scalable web applications.
 </h3>
 
-- 🌱 I’m currently learning **DevOps**
 - 💼 Check out my portfolio at: [alihuzaifa-portfolio.web.app](https://alihuzaifa-portfolio.web.app/)
-- 💬 Ask me about **JavaScript, TypeScript, React, Angular, Adonis js, Nest Js, Node.js, Express.js, MongoDB, Firebase, Supabase Next.js, AWS, Docker, Airtable**
+- 💬 Ask me about **JavaScript, TypeScript, React, Next.js, Angular, Vue.js, Nuxt.js, Node.js, NestJS, AdonisJS, Express.js, GraphQL, MongoDB, MySQL, Firebase, Supabase, AWS, Docker**
 - 📫 Reach me at: **alihuzaifa1995@gmail.com**
 
 ---
@@ -26,6 +25,21 @@ I'm a full-stack developer with 3+ years of experience, passionate about buildin
 ### 🛠️ Languages and Tools:
 
 <p align="left">
+  <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" alt="vuejs" width="40" height="40"/>
+  </a>
+  <a href="https://nuxt.com/" target="_blank" rel="noreferrer">
+    <img src="https://nuxt.com/assets/design-kit/icon-green.svg" alt="nuxtjs" width="40" height="40"/>
+  </a>
+  <a href="https://www.electronjs.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" alt="electron" width="40" height="40"/>
+  </a>
+  <a href="https://graphql.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/graphql/graphql-plain.svg" alt="graphql" width="40" height="40"/>
+  </a>
+  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
+  </a>
   <a href="https://www.chartjs.org" target="_blank" rel="noreferrer">
     <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/>
   </a>
