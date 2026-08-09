@@ -114,8 +114,8 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=alihuzaifa&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0a0b&title_color=3b82f6&icon_color=22d3ee&text_color=f4f4f7" alt="Ali Huzaifa's GitHub Stats" height="180" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=alihuzaifa&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0a0b&title_color=3b82f6&text_color=f4f4f7" alt="Top Languages" height="180" />
+<img src="https://github-readme-stats-alihuzaifa.vercel.app/api?username=alihuzaifa&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0a0b&title_color=3b82f6&icon_color=22d3ee&text_color=f4f4f7" alt="Ali Huzaifa's GitHub Stats" height="180" />
+<img src="https://github-readme-stats-alihuzaifa.vercel.app/api/top-langs?username=alihuzaifa&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0a0b&title_color=3b82f6&text_color=f4f4f7" alt="Top Languages" height="180" />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=alihuzaifa&theme=tokyonight&hide_border=true&background=0a0a0b&ring=3b82f6&fire=22d3ee&currStreakLabel=3b82f6" alt="GitHub Streak" height="180" />
 
